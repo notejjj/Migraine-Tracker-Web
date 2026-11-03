@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MigraineCare</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Nunito+Sans:wght@400;600;700&family=Noto+Sans+Thai:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#view" data-i18n="skip">Skip to content</a>
+<header class="top">
+  <button id="menu" class="icon-btn" aria-label="Menu" aria-expanded="false">☰</button>
+  <a class="brand" href="#dash"><span class="logo" aria-hidden="true"></span><span data-i18n="brand">MigraineCare</span></a>
+  <button id="lang" class="pill" aria-label="Switch language">TH</button>
+</header>
+<nav id="nav" aria-label="Main"></nav>
+<main id="view" tabindex="-1"></main>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="dlg"><p id="dlgMsg"></p><div class="row"><button class="btn ghost" id="dlgNo"></button><button class="btn danger" id="dlgYes"></button></div></dialog>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
